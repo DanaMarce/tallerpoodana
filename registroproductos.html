@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/registroproducto.css" />
+    <title>registroproductos</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Registrar Producto</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" id="nombre" name="nombre" required="" />
+          <label>Nombre</label>
+        </div>
+        <div class="user-box">
+          <input type="text" id="descripcion" name="descripcion" required="" />
+          <label>Descripción</label>
+        </div>
+
+        <div class="user-box">
+          <input type="number" id="cantidad" name="cantidad" required />
+          <label>Cantidad</label>
+        </div>
+
+        <div class="user-box">
+          <input
+            type="number"
+            id="valor_unitario"
+            name="valor_unitario"
+            required
+          />
+          <label>Valor unitario</label>
+        </div>
+        <a href="#" onclick="registrarProducto()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Guardar
+        </a>
+
+        <a href="catalogo.html">Regresar</a>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
